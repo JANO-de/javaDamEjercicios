@@ -1,4 +1,4 @@
-package tiposDeDatosPrimitivos;
+package bloque1;
 
 public class Ejercicio6 {
 	public static void show() {

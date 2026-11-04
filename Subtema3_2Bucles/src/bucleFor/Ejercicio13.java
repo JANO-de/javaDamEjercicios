@@ -22,8 +22,7 @@ public class Ejercicio13 {
 	}
 
 	public boolean casillaValida(String casilla) {
-		return casilla.length() == 2 && casilla.charAt(0) >= 'a' && casilla.charAt(0) <= 'h' && casilla.charAt(1) >= '1'
-				&& casilla.charAt(1) <= '8';
+		return casilla.length() == 2 && casilla.charAt(0) >= 'a' && casilla.charAt(0) <= 'h' && casilla.charAt(1) >= '1' && casilla.charAt(1) <= '8';
 	}
 
 	public void dibujarTablero(String casilla) {

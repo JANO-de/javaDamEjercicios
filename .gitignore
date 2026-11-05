@@ -1,12 +1,1 @@
-# Eclipse
-.metadata/
-.classpath
-.project
-.settings/
-bin/
-target/
 
-# Java
-*.class
-*.jar
-*.war

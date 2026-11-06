@@ -1,0 +1,43 @@
+package bucleFor;
+
+import java.util.Scanner;
+
+public class Ejercicio13 {
+
+	public void show() {
+		Scanner sc = new Scanner(System.in);
+		String box = new String();
+		do {
+			System.out.println("Introduce una casilla (a1 - h8)");
+			box = sc.nextLine();
+		} while (!valid(box));
+		drawTable(box);
+	}
+
+	public boolean valid(String box) {
+		return box.length() == 2 && box.charAt(0) >= 'a' && box.charAt(0) <= 'h' && box.charAt(1) >= '1'
+				&& box.charAt(1) <= '8';
+	}
+
+	public void drawTable(String box) {
+		int colB = box.charAt(1) - 'a' + 1;
+		int rowB = box.charAt(0) - '0';
+		for (int row = 1; row <= 8; row++) { // i -> Filas
+			for (int col = 1; col <= 8; col++) {
+				if ((row + col) % 2 == 0) {
+					System.out.print(Colors.WHITE_BACKGROUND + "  ");
+				} else if (row == rowB && col == colB) {
+					System.out.print(Colors.BLUE_BACKGROUND + "  ");
+				} else {
+					System.out.print(Colors.BLACK_BACKGROUND + "  ");
+				}
+			}
+			System.out.printf(Colors.RESET + " ");
+			System.out.println();
+		}
+	}
+
+	public static void main(String[] args) {
+		new Ejercicio13().show();
+	}
+}

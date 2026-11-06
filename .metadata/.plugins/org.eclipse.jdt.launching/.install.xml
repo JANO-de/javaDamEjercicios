@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dirs>
+    <entry loc="/nix/store/iyhgi5f1xs5rxzh4c4hi7v5gns25ivip-openjdk-25.0.4.1+1" stamp="1000"/>
+    <entry loc="/nix/store/iyhgi5f1xs5rxzh4c4hi7v5gns25ivip-openjdk-25.0.4.1+1/lib/openjdk" stamp="1000"/>
+    <entry loc="/nix/store/iyhgi5f1xs5rxzh4c4hi7v5gns25ivip-openjdk-25.0.4.1+1/bin" stamp="1000"/>
+    <entry loc="/nix/store/x92dxglx7ziz2sc3wfvcyl6v2n34w4c4-openjdk-21.0.12.1+1/lib/openjdk" stamp="1000"/>
+</dirs>

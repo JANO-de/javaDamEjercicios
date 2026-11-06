@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+    <libraryInfo home="/nix/store/iyhgi5f1xs5rxzh4c4hi7v5gns25ivip-openjdk-25.0.4.1+1" version="25.0.4.1">
+        <bootpath>
+            <entry path="null"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="null"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="null"/>
+        </endorsedDirs>
+    </libraryInfo>
+    <libraryInfo home="/nix/store/iyhgi5f1xs5rxzh4c4hi7v5gns25ivip-openjdk-25.0.4.1+1/lib/openjdk" version="25.0.4.1"/>
+    <libraryInfo home="/nix/store/iyhgi5f1xs5rxzh4c4hi7v5gns25ivip-openjdk-25.0.4.1+1/bin" version="25.0.4.1">
+        <bootpath>
+            <entry path="null"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="null"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="null"/>
+        </endorsedDirs>
+    </libraryInfo>
+    <libraryInfo home="/nix/store/x92dxglx7ziz2sc3wfvcyl6v2n34w4c4-openjdk-21.0.12.1+1/lib/openjdk" version="21.0.12.1"/>
+</libraryInfos>

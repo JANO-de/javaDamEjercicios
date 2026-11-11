@@ -1,0 +1,24 @@
+package recursividad;
+import java.util.Scanner;
+
+public class Ejercicio4 {
+
+	public void show() {
+		String box = new String();
+		Scanner keyb = new Scanner(System.in);
+		System.out.println("Introduce la cadena: ");
+		box = keyb.nextLine();
+	}
+	
+	public boolean isPalindrome(String box) {
+		boolean result = false;
+		if (box.)
+		
+		return result;
+	}
+
+	public static void main(String[] args) {
+		new Ejercicio4().show();
+	}
+
+}

@@ -1,4 +1,4 @@
-package getYSet;
+package getYSet.ejercicio2;
 
 public class Person {
 	private String name;

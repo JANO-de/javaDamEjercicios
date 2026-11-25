@@ -1,4 +1,4 @@
-package getYSet;
+package getYSet.ejercicio1;
 
 import java.util.Scanner;
 

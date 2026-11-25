@@ -1,5 +1,6 @@
 package bucleFor;
 
+import static bucleFor.Colors.*;
 import java.util.Scanner;
 
 public class Ejercicio13 {
@@ -22,21 +23,23 @@ public class Ejercicio13 {
 	public void drawTable(String box) {
 		int rowB = box.charAt(1) - '0';
 		int colB = box.charAt(0) - 'a' + 1;
+		System.out.println("  a b c d e f g h");
 		for (int row = 8; row >= 1; row--) { // i -> Filas
+			System.out.print(row + " ");
 			for (int col = 1; col <= 8; col++) {
 				// Logica Alfil
 				if (row == rowB && col == colB) {
-					System.out.print(Colors.BLUE_BACKGROUND + "  ");
+					System.out.print(BLUE_BACKGROUND + "  ");
 				} else if (Math.abs(row - rowB) == Math.abs(col - colB)) {
-					System.out.print(Colors.RED_BACKGROUND + "  ");
+					System.out.print(RED_BACKGROUND + "  ");
 				} else if ((row + col) % 2 == 0) {
-					System.out.print(Colors.WHITE_BACKGROUND + "  ");
+					System.out.print(WHITE_BACKGROUND + "  ");
 				} else {
-					System.out.print(Colors.BLACK_BACKGROUND + "  ");
+					System.out.print(BLACK_BACKGROUND + "  ");
 				}
 
 			}
-			System.out.print(Colors.RESET);
+			System.out.print(RESET);
 			System.out.println();
 		}
 	}

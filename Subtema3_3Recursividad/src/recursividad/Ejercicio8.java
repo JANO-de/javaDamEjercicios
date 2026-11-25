@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ejercicio8 {
 
 	public void show() {
+		@SuppressWarnings("resource")
 		Scanner keyb = new Scanner(System.in);
 
 		System.out.println("Introduce el numero de discos: ");

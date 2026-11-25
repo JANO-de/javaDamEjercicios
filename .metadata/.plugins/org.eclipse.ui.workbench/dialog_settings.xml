@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="ImportExportAction">
-		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.e4.ui.importer.wizard"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.Preferences"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
 		</list>
 		<section name="ImportExportWizard.dialogBounds">
@@ -11,9 +15,9 @@
 	<section name="WorkbenchPreferenceDialog.dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="0"/>
 		<item key="DIALOG_Y_ORIGIN" value="0"/>
-		<item key="DIALOG_WIDTH" value="662"/>
-		<item key="DIALOG_HEIGHT" value="531"/>
-		<item key="DIALOG_FONT_NAME" value="1|Inter|11.0|0|GTK|1|"/>
+		<item key="DIALOG_WIDTH" value="1080"/>
+		<item key="DIALOG_HEIGHT" value="1038"/>
+		<item key="DIALOG_FONT_NAME" value="1|Inter|12.0|0|GTK|1|"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_WIDTH" value="525"/>
@@ -32,5 +36,35 @@
 		<list key="textArray">
 			<item value="plug"/>
 		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="NadalesTondaJuanAntonio.zip"/>
+		</list>
+		<section name="ZipFileExportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="0"/>
+			<item key="DIALOG_Y_ORIGIN" value="0"/>
+			<item key="DIALOG_WIDTH" value="700"/>
+			<item key="DIALOG_HEIGHT" value="550"/>
+			<item key="DIALOG_FONT_NAME" value="1|Inter|12.0|0|GTK|1|"/>
+		</section>
+	</section>
+	<section name="PreferencesImportWizard">
+		<item key="" value="/home/jano/Downloads/gruvbox-noctalia-editor.epf"/>
+		<item key="" value="/home/jano/Downloads/gruvbox-editor-v2.epf"/>
+		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/home/jano/Downloads/gruvbox-editor-v2.epf"/>
+			<item value="/home/jano/Downloads/gruvbox-noctalia-editor.epf"/>
+			<item value="/home/jano/Downloads/gruvbox-black-eclipse.epf"/>
+		</list>
+		<section name="PreferencesImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="0"/>
+			<item key="DIALOG_Y_ORIGIN" value="0"/>
+			<item key="DIALOG_WIDTH" value="700"/>
+			<item key="DIALOG_HEIGHT" value="550"/>
+			<item key="DIALOG_FONT_NAME" value="1|Inter|12.0|0|GTK|1|"/>
+		</section>
 	</section>
 </section>
